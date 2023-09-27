@@ -798,6 +798,9 @@ app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP,dbc.icons.FO
 # btn_text=html.Div('Baixar parâmetros', style=dict(paddingRight='0.5vw',display='inline-block'))
 # btn1_content = html.Span([btn_text,excel_icon])
 
+
+server = app.server
+
 gauge_size = "auto"
 sidebar_size = 12
 graph_size = 10
@@ -1533,7 +1536,10 @@ def download_figures(n_clicks_figs,fig1_,fig2_,fig3_):
 
 
 if __name__ == '__main__':
-    app.run_server(
-        port=8050,
-        host='0.0.0.0',
-        debug=False)  
+
+    app.run_server()
+
+    # app.run_server(
+    #     port=8050,
+    #     host='0.0.0.0',
+    #     debug=False)  
