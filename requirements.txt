@@ -7,7 +7,6 @@ openpyxl
 XlsxWriter
 zipp
 matplotlib
-markdown2latex
 scikit-learn
 scipy
 pandas
