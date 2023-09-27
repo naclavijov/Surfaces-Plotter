@@ -1,0 +1,16 @@
+dash==2.13.0
+dash-bootstrap-components
+dash-bootstrap-templates
+dash-mantine-components
+dash-iconify
+openpyxl
+XlsxWriter
+zipp
+matplotlib
+markdown2latex
+scikit-learn
+scipy
+pandas
+numpy
+plotly
+gunicorn
